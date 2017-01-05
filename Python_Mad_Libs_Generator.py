@@ -1,10 +1,10 @@
-Print('''
-Mad Libs Generator
+print('''
+(Super basic & super unfinished) Mad Libs Generator
 by Gerrit Ohrner
 ''')
 
-# Ein input für je Nomen, Verb und Adjektiv
-# externe Datei für späteren Satzbau
-# Auf externe Dateien zugreifen
-# Satz mit eingegebenen Variablen und Textstücken aus externen dateien erstellen
+Nomen = input('Bitte gib ein Nomen ein: ')
+Verb = input('Bitte gib ein Verb ein: ')
+Adjektiv = input('Bitte gib ein Adjektiv ein: ')
 
+print('This morning, Horst ' + Verb + ' a big pile of ' + Adjektiv + Nomen)
